@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\sodoz\school\2024\EEE3088F\SENSOR\IR SENSOR\IR SENSOR.kicad_sch</source>
+    <date>03 Apr 2024 22:50:50</date>
+    <tool>Eeschema (7.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>IR SENSOR.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>D_Photo</value>
+      <footprint>LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm</footprint>
+      <libsource lib="Device" part="D_Photo" description="Photodiode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IR SENSOR.kicad_sch"/>
+      <property name="ki_description" value="Photodiode"/>
+      <property name="ki_keywords" value="photodiode diode opto"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1334f55-a352-4f12-929d-0b2deac13e65</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>IR_LED</value>
+      <footprint>LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IR SENSOR.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0302ee8-19b4-4755-9a15-5528538415df</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x14_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x14_P2.54mm_Vertical</footprint>
+      <libsource lib="Conn_02x14_Male" part="Conn_02x14_Male" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IR SENSOR.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36c83486-2247-4c58-b90e-9a5db49d829b</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IR SENSOR.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82032eb6-17f5-44c6-aa25-3e7c3cde6de2</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IR SENSOR.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5eb1d54-e047-47c5-ba64-d76efb2dbb4e</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IR SENSOR.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51def95b-c1d0-4918-aad7-00488c8bdeb3</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>270</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IR SENSOR.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b047120b-5fc8-4431-96fc-d43feed7a2b3</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_ACP_CA9-H2,5_Horizontal</footprint>
+      <libsource lib="Device" part="R_Potentiometer_US" description="Potentiometer, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IR SENSOR.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer, US symbol"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>665c136b-a6e7-4578-9085-737a1f7d142d</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM358_DFN</value>
+      <footprint>Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm</footprint>
+      <datasheet>www.st.com/resource/en/datasheet/lm358.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM358_DFN" description="Low-Power, Dual Operational Amplifiers, DFN-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IR SENSOR.kicad_sch"/>
+      <property name="ki_description" value="Low-Power, Dual Operational Amplifiers, DFN-8"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7eb93e1c-1b4b-4942-98c0-5c97a6d0e6c5</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="LM358_DFN">
+      <description>Low-Power, Dual Operational Amplifiers, DFN-8</description>
+      <docs>www.st.com/resource/en/datasheet/lm358.pdf</docs>
+      <footprints>
+        <fp>DFN*2x2mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM358_DFN</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm</field>
+        <field name="Datasheet">www.st.com/resource/en/datasheet/lm358.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+        <pin num="9" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Conn_02x14_Male" part="Conn_02x14_Male">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x14_Male</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x14_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RESV3" type="passive"/>
+        <pin num="2" name="3V3" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="BATT" type="passive"/>
+        <pin num="5" name="PA3" type="passive"/>
+        <pin num="6" name="RESV2" type="passive"/>
+        <pin num="7" name="PA4" type="passive"/>
+        <pin num="8" name="PE5" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="PE24" type="passive"/>
+        <pin num="11" name="PA5" type="passive"/>
+        <pin num="12" name="PE13" type="passive"/>
+        <pin num="13" name="PA6" type="passive"/>
+        <pin num="14" name="PE12" type="passive"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="PE11" type="passive"/>
+        <pin num="17" name="PA7" type="passive"/>
+        <pin num="18" name="PE10" type="passive"/>
+        <pin num="19" name="PC4" type="passive"/>
+        <pin num="20" name="PE9" type="passive"/>
+        <pin num="21" name="GND" type="passive"/>
+        <pin num="22" name="PE8" type="passive"/>
+        <pin num="23" name="PC5" type="passive"/>
+        <pin num="24" name="RESV1" type="passive"/>
+        <pin num="25" name="AB0" type="passive"/>
+        <pin num="26" name="BATT" type="passive"/>
+        <pin num="27" name="GND" type="passive"/>
+        <pin num="28" name="3V3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Photo">
+      <description>Photodiode</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Photo</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer_US">
+      <description>Potentiometer, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Bridged">
+      <description>Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Bridged</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Amplifier_Operational.kicad_sym</uri>
+    </library>
+    <library logical="Conn_02x14_Male">
+      <uri>C:/Users/sodoz/school/2024/EEE2046F/project1/CIRCUIT/Conn_02x14_Male.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="RESV3" pintype="passive"/>
+      <node ref="J1" pin="28" pinfunction="3V3" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="J1" pin="15" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="21" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="27" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="output"/>
+    </net>
+    <net code="3" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="4" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(U1A--)">
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="7" name="unconnected-(J1-3V3-Pad2)">
+      <node ref="J1" pin="2" pinfunction="3V3" pintype="passive"/>
+    </net>
+    <net code="8" name="unconnected-(J1-AB0-Pad25)">
+      <node ref="J1" pin="25" pinfunction="AB0" pintype="passive"/>
+    </net>
+    <net code="9" name="unconnected-(J1-BATT-Pad4)">
+      <node ref="J1" pin="4" pinfunction="BATT" pintype="passive"/>
+    </net>
+    <net code="10" name="unconnected-(J1-BATT-Pad26)">
+      <node ref="J1" pin="26" pinfunction="BATT" pintype="passive"/>
+    </net>
+    <net code="11" name="unconnected-(J1-PA3-Pad5)">
+      <node ref="J1" pin="5" pinfunction="PA3" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(J1-PA4-Pad7)">
+      <node ref="J1" pin="7" pinfunction="PA4" pintype="passive"/>
+    </net>
+    <net code="13" name="unconnected-(J1-PA5-Pad11)">
+      <node ref="J1" pin="11" pinfunction="PA5" pintype="passive"/>
+    </net>
+    <net code="14" name="unconnected-(J1-PA6-Pad13)">
+      <node ref="J1" pin="13" pinfunction="PA6" pintype="passive"/>
+    </net>
+    <net code="15" name="unconnected-(J1-PA7-Pad17)">
+      <node ref="J1" pin="17" pinfunction="PA7" pintype="passive"/>
+    </net>
+    <net code="16" name="unconnected-(J1-PC4-Pad19)">
+      <node ref="J1" pin="19" pinfunction="PC4" pintype="passive"/>
+    </net>
+    <net code="17" name="unconnected-(J1-PC5-Pad23)">
+      <node ref="J1" pin="23" pinfunction="PC5" pintype="passive"/>
+    </net>
+    <net code="18" name="unconnected-(J1-PE5-Pad8)">
+      <node ref="J1" pin="8" pinfunction="PE5" pintype="passive"/>
+    </net>
+    <net code="19" name="unconnected-(J1-PE8-Pad22)">
+      <node ref="J1" pin="22" pinfunction="PE8" pintype="passive"/>
+    </net>
+    <net code="20" name="unconnected-(J1-PE9-Pad20)">
+      <node ref="J1" pin="20" pinfunction="PE9" pintype="passive"/>
+    </net>
+    <net code="21" name="unconnected-(J1-PE10-Pad18)">
+      <node ref="J1" pin="18" pinfunction="PE10" pintype="passive"/>
+    </net>
+    <net code="22" name="unconnected-(J1-PE11-Pad16)">
+      <node ref="J1" pin="16" pinfunction="PE11" pintype="passive"/>
+    </net>
+    <net code="23" name="unconnected-(J1-PE12-Pad14)">
+      <node ref="J1" pin="14" pinfunction="PE12" pintype="passive"/>
+    </net>
+    <net code="24" name="unconnected-(J1-PE13-Pad12)">
+      <node ref="J1" pin="12" pinfunction="PE13" pintype="passive"/>
+    </net>
+    <net code="25" name="unconnected-(J1-PE24-Pad10)">
+      <node ref="J1" pin="10" pinfunction="PE24" pintype="passive"/>
+    </net>
+    <net code="26" name="unconnected-(J1-RESV1-Pad24)">
+      <node ref="J1" pin="24" pinfunction="RESV1" pintype="passive"/>
+    </net>
+    <net code="27" name="unconnected-(J1-RESV2-Pad6)">
+      <node ref="J1" pin="6" pinfunction="RESV2" pintype="passive"/>
+    </net>
+  </nets>
+</export>
